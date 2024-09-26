@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="./formSejaVoluntario.css">
+
+<body>
+    <!--DIV DA PAGINA GERAL-->
+    <div class="pagina_seja_voluntario">
+        <!--DIV DO LOGOTIPO-->
+        <div class="logo_maior">
+            <img src="./IMG/LOGO MAIOR.png" alt="">
+        </div>
+
+        <!--DIV SEJA VOLUNTÁRIO-->
+        <h1 class="seja_voluntario">SEJA VOLUNTÁRIO</h1>
+
+        <!--DIV LINHA-->
+        <div class="linha"></div>
+
+        <!--Fomulário-->
+        <form action="">
+            <!--DIV CAMPOS NOME, E-MAIL, TELEFONE, ASSUNTO E MENSAGEM-->
+            <div class="campo_form">
+                
+                <!--DIV CAMPO NOME-->
+                <div class="campo_nome">
+                    <!--CLASSE PARA ISOLAR O FORMULÁRIO NOME-->
+                    <label for="">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+
+                <!--DIV CAMPO E-MAIL-->
+                <div class="campo_email">
+                    <!--CLASSE PARA ISOLAR O FORMULÁRIO E-MAIL-->
+                    <label for="">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <!--DIV CAMPO TELEFONE-->
+                <div class="campo_telefone">
+                    <!--CLASSE PARA ISOLAR O FORMULÁRIO TELEFONE-->
+                    <label for="">Telefone:</label>
+                    <input type="tel" id="tel" name="tel" required>
+                </div>
+                
+                <!--DIV CAMPO ASSUNTO-->
+                <div class="campo_assunto">
+                    <!--CLASSE PARA ISOLAR O FORMULÁRIO ASSUNTO-->
+                    <label for="">Assunto:</label>
+                    <select name="assunto" id="assunto">
+                        <option value="">Selecione um assunto</option>
+                        <option value="Apoio a crianças">Apoio a crianças</option>
+                        <option value="Apoio a idosos">Apoio a idosos</option>
+                        <option value="Apoio a pessoas com deficiência">Apoio a pessoas com deficiência</option>
+                        <option value="Apoio a pessoas com mobilidade reduzida">Apoio a pessoas com mobilidade reduzida</option>
+                        <option value="Apoio a pessoas com necessidades especiais">Apoio a pessoas com necessidades especiais</option>
+                        <option value="Apoio a pessoas com transtorno de ansiedade">Apoio a pessoas com transtorno de ansiedade</option>
+                        <option value="Quero doar">Quero doar</option>
+                        <option value="Apoio a pessoas com transtorno de ansiedade">Quero ser voluntário na Ong</option>    
+                        </select>
+                </div>
+                
+                <!--DIV CAMPO MENSAGEM-->
+                <div class="campo_mensagem">
+                    <!--CLASSE PARA ISOLAR O FORMULÁRIO MENSAGEM-->
+                    <label for="">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea>
+                </div>
+                
+                <!--DIV BOTÃO ENVIAR-->
+                <div class="botao_enviar">
+                    <button onclick="">Enviar</button>
+                </div>
+                
+            
+
+            </div>
+
+            
+        </form>
+    </div>
+</body>
+
+</html>

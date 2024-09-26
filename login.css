@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+.pagina_login_voluntario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.logo_maior img {
+    width: 330px;
+    height: 330px;
+}
+
+.linha {
+    width: 400px;
+    height: 3px;
+    background-color: #F1642E;
+}
+
+.campo_email {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.campo_email label {
+    display: flex;
+    justify-content: left;
+}
+
+.campo_senha {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.campo_senha label {
+    display: flex;
+    justify-content: left;
+}
+
+.campo_email_senha_e_botão {
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+}
+
+.login_senha {
+    margin-top: 10px;
+    justify-content: space-between;
+    width: 356px;
+    
+
+}
+
+.login_senha a {
+    color: #F1642E;
+    margin: 30px;
+    position: relative;
+    left: 25px;
+    
+}
+
+p {
+    margin-top: 0px;
+}
+
+input[type="password"] {
+    margin-top: 10px;
+    border-radius: 3px;
+    border: solid 2px #F1642E;
+    height: 25px;
+    width: 350px;
+    outline: #F1642E;
+
+}
+
+input[type="email"] {
+    margin-top: 10px;
+    border-radius: 3px;
+    border: solid 2px #F1642E;
+    height: 25px;
+    width: 350px;
+    outline: #F1642E;
+
+}
+
+.botao_login {
+    margin-top: 20px;
+    height: 40px;
+}
+
+button {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.seja_voluntario {
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    font-size: 15px;
+}
